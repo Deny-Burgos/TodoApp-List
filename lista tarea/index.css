@@ -191,7 +191,9 @@ transform: scale(1.3);
 .edit-btn:hover{
     transform: scale(1.3);
 }
-
+.check{
+    text-decoration: line-through solid 3px #0284c7;
+}
 @media (min-width:768px) {
     .bars-icon {
         display: none;
