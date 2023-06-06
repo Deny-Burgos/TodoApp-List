@@ -90,7 +90,8 @@ body {
 }
 
 .add-text{
-    width: 100%;
+    padding: 0.5rem;
+    width: 70%;
     border-radius: 1rem;
     font-size: 2rem;
     background-color: #7dd3fc;
@@ -98,6 +99,7 @@ body {
     margin: 0.5rem;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .add-text:focus-visible{
@@ -149,7 +151,7 @@ li{
     padding: 0.5rem;
 }
 .task{
-    width: 90%;
+    width: 60%;
 }
 
 .delete-btn{
@@ -158,7 +160,7 @@ li{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: #f8fafc;
+    color: #dc2626;
     background-color: transparent;
 }
 
@@ -167,12 +169,12 @@ transform: scale(1.3);
 }
 
 .check-btn{
-    width: 2.4rem;
+    width: 2.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: #f8fafc;
+    color: #7dd3fc;
     background-color: transparent;
 }
 #conteo{

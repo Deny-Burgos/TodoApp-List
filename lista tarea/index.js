@@ -49,10 +49,12 @@ list.addEventListener("click", (e) => {
   if (e.target.closest(".check-btn")) {
     const checkIcon = e.target.closest(".check-btn");
     const p = checkIcon.parentElement.children[0];
-    if (e.target.closest(".check-btn")) {
+    if (p.classList.contains("check")) {
+      p.classList.remove("check");
+    } else {
       p.classList.add("check");
-      localStorage.setItem("listaTareas", list.innerHTML);
     }
+    localStorage.setItem("listaTareas", list.innerHTML);
   }
   upDateConteo(list);
 });
